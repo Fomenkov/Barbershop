@@ -1,0 +1,36 @@
+/*
+.visually-hidden {
+    display: none;
+}
+*/
+header {
+    background-color: #000000;
+}
+footer {
+    background-color: #232323;
+}
+.photos img {
+    box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+}
+
+.Подложка {
+    background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+    box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+    position: absolute;
+    left: 460px;
+    top: 542px;
+    width: 280px;
+    height: 64px;
+    z-index: 40;
+}
+.Шоколадный_фон {
+    background-image: url("Шоколадный фон.png");
+    position: absolute;
+    left: 613px;
+    top: 647px;
+    width: 560px;
+    height: 229px;
+    z-index: 158;
+}
