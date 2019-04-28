@@ -26,4 +26,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# WebStorm files
+
+.idea*
+
 # End of https://www.gitignore.io/api/windows
