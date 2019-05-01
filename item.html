@@ -8,16 +8,7 @@
 <body>
 <header class="main-header">
     <nav class="main-navigation">
-        <a class="main-header-logo">
-            <img src="img/logo.svg" alt="Логотип барбершопа 'Бородинский'">
-        </a>
-        <a class="main-header-logo">
-            <img src="img/logo-1.webp" alt="Логотип барбершопа 'Бородинский'">
-        </a>
-        <a class="main-header-logo">
-            <img src="img/logo-ps.svg" alt="Логотип барбершопа 'Бородинский'">
-        </a>
-        <a class="main-header-logo">
+        <a class="main-header-logo" href="index.html">
             <img src="img/logo-ps-2.svg" alt="Логотип барбершопа 'Бородинский'">
         </a>
         <ul class="site-navigation">
@@ -33,33 +24,50 @@
     </nav>
 </header>
 <main class="container">
-    <h1>Набор для путешествий «Baxter of California»</h1>
+    <h1 class="page-title">Набор для путешествий «Baxter of California»</h1>
     <ul class="breadcrumbs">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="shop.html">Магазин</a></li>
-        <li><a href="shop.html">Средства для ухода</a></li>
-        <li><a>Набор для путешествий «Baxter of California»</a></li>
+        <li>
+            <a href="index.html">Главная</a>
+        </li>
+        <li>
+            <a href="shop.html">Магазин</a>
+        </li>
+        <li>
+            <a href="shop.html">Средства для ухода</a>
+        </li>
+        <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»</li>
     </ul>
-    <section class="photos">
+    <section class="product-photos">
         <h2 class="visually-hidden">Фотографии товара</h2>
-        <img src="img/product-big.jpg" alt="Фотография дорожного набора">
-        <ul>
-            <li><img src="img/product-small.jpg" alt="Дорожный набор"></li>
-            <li><img src="img/product-small.jpg" alt="Дорожный набор"></li>
-            <li><img src="img/product-small.jpg" alt="Дорожный набор"></li>
+        <p class="product-photo-full">
+            <img src="img/product-big.jpg" width="460" height="498" alt="Фотография дорожного набора">
+        </p>
+        <ul class="product-photo-preview">
+            <li>
+                <img src="img/product-small.jpg" width="140" height="149" alt="Фото в анфас">
+            </li>
+            <li>
+                <img src="img/product-small.jpg" width="140" height="149" alt="Фото в профиль">
+            </li>
+            <li>
+                <img src="img/product-small.jpg" width="140" height="149" alt="Фото отдельной части">
+            </li>
         </ul>
     </section>
-    <section class="item-description">
+
+    <section class="product-info">
         <h2 class="visually-hidden">Описание товара</h2>
-        <span class="in-stock">Есть в наличии</span>
-        <span class="item-article">Артикул: dexter-ae</span>
-        <p class="product-description">
-            Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все,
-            что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания,
-            увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
+
+        <p class="product-availability">Есть в наличии</p>
+        <p class="product-article">Артикул: dexter-ae</p>
+        <p class="product-text">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что
+            нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий
+            крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
         </p>
-        <p class="price">2900 &#8381;</p>
-        <button class="button">Купить</button>
+        <p class="product-price">
+            <b>2 900 ₽</b>
+            <a class="button" href="#">Купить</a>
+        </p>
         <h3> В набор входят:</h3>
         <ul class="product-set">
             <li>Средство для умывания (50 мл)</li>
@@ -72,17 +80,24 @@
 </main>
 <footer class="main-footer">
     <p class="footer-contacts">
-        Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8<br>
-        <a href="#">Как нас найти?</a><br>
-        Телефон: +7 (495) 666-02-66
+        Барбершоп «Бородинский»
+        <br> Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8
+        <br>
+        <a href="#">Как нас найти?</a>
+        <br> Телефон: +7 (495) 666-02-66
     </p>
     <div class="footer-social">
         <b>Давайте дружить!</b>
         <ul>
-            <li><a class="social-button" href="#">Вконтакте</a></li>
-            <li><a class="social-button" href="#">Фейсбук</a></li>
-            <li><a class="social-button" href="#">Инстаграм</a></li>
+            <li>
+                <a class="social-button" href="#">Вконтакте</a>
+            </li>
+            <li>
+                <a class="social-button" href="#">Фейсбук</a>
+            </li>
+            <li>
+                <a class="social-button" href="#">Инстаграм</a>
+            </li>
         </ul>
     </div>
     <p class="footer-copyright">
@@ -90,5 +105,11 @@
         <a target="_blank" href="https://webalex.su" class="button">WebAlex</a>
     </p>
 </footer>
+<section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <p>Введите пожалуйста свой логин и пароль</p>
+    <!-- Форма регистрации -->
+    <span class="modal-close">X</span>
+</section>
 </body>
 </html>

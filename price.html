@@ -8,7 +8,7 @@
 <body>
 <header class="main-header">
     <nav class="main-navigation">
-        <a class="main-header-logo">
+        <a class="main-header-logo" href="index.html">
             <img src="img/logo.png" alt="Логотип барбершопа 'Бородинский'">
         </a>
         <ul class="site-navigation">
@@ -24,12 +24,14 @@
     </nav>
 </header>
 <main class="container">
-    <h1>Прайс-лист</h1>
+    <h1 class="page-title">Прайс-лист</h1>
     <ul class="breadcrumbs">
-        <li><a href="index.html">Главная</a></li>
-        <li><a>Прайс-лист</a></li>
+        <li>
+            <a href="index.html">Главная</a>
+        </li>
+        <li class="breadcrumbs-current">Прайс-лист</li>
     </ul>
-    <b>Истинно мужская коассика</b>
+    <b>Истинно мужская классика</b>
     <section class="brands">
         <h2>Мы используем только лучшие средства:</h2>
         <ul class="brands-list">
@@ -58,26 +60,37 @@
     </section>
     <section class="about-us">
         <h2>Несколько слов о нас:</h2>
-        <p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это
-            уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
-        <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в
-            обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и
-            свободно!</p>
+        <ul>
+            <li>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это
+                уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
+            </li>
+            <li>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже
+                в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и
+                свободно!
+            </li>
+        </ul>
     </section>
 </main>
 <footer class="main-footer">
     <p class="footer-contacts">
-        Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8<br>
-        <a href="#">Как нас найти?</a><br>
-        Телефон: +7 (495) 666-02-66
+        Барбершоп «Бородинский»
+        <br> Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8
+        <br>
+        <a href="#">Как нас найти?</a>
+        <br> Телефон: +7 (495) 666-02-66
     </p>
     <div class="footer-social">
         <b>Давайте дружить!</b>
         <ul>
-            <li><a class="social-button" href="#">Вконтакте</a></li>
-            <li><a class="social-button" href="#">Фейсбук</a></li>
-            <li><a class="social-button" href="#">Инстаграм</a></li>
+            <li>
+                <a class="social-button" href="#">Вконтакте</a>
+            </li>
+            <li>
+                <a class="social-button" href="#">Фейсбук</a>
+            </li>
+            <li>
+                <a class="social-button" href="#">Инстаграм</a>
+            </li>
         </ul>
     </div>
     <p class="footer-copyright">
@@ -85,5 +98,11 @@
         <a target="_blank" href="https://webalex.su" class="button">WebAlex</a>
     </p>
 </footer>
+<section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <p>Введите пожалуйста свой логин и пароль</p>
+    <!-- Форма регистрации -->
+    <span class="modal-close">X</span>
+</section>
 </body>
 </html>
