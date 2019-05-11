@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="inner-page">
 <header class="main-header">
     <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
@@ -37,6 +39,61 @@
     <section class="filter">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <!-- Умный фильтр (форма) -->
+        <form class="filter-form" action="https://htmlacademy.ru/echo" method="post">
+            <fieldset>
+                <legend>Производители</legend>
+                <label>
+                    <input class="visually-hidden" type="checkbox" name="Baxter-of-California" checked>
+                    <span class="checkbox-indicator"></span>
+                    Baxter of California
+                </label>
+                <label>
+                    <input class="visually-hidden" type="checkbox" name="Mr-Natty">
+                    <span class="checkbox-indicator"></span>
+                    Mr Natty
+                </label>
+                <label>
+                    <input class="visually-hidden" type="checkbox" name="Suavecito" checked>
+                    <span class="checkbox-indicator"></span>
+                    Suavecito
+                </label>
+                <label>
+                    <input class="visually-hidden" type="checkbox" name="Malin+Goetz">
+                    <span class="checkbox-indicator"></span>
+                    Malin+Goetz
+                </label>
+                <label>
+                    <input class="visually-hidden" type="checkbox" name="Murray’s">
+                    <span class="checkbox-indicator"></span>
+                    Murray’s
+                </label>
+                <label>
+                    <input class="visually-hidden" type="checkbox" name="American-Crew" checked>
+                    <span class="checkbox-indicator"></span>
+                    American Crew
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Группы товаров:</legend>
+                <label>
+                    <input class="visually-hidden" type="radio" name="category"  value="shaving-accessories">
+                    <span class="radio-indicator"></span>
+                    Бритвенные принадлежности
+                </label>
+                <label>
+                    <input class="visually-hidden" type="radio" name="category" value="care products">
+                    <span class="radio-indicator"></span>
+                    Средства для ухода
+                </label>
+                <label>
+                    <input class="visually-hidden" type="radio" name="category" value="accessories">
+                    <span class="radio-indicator"></span>
+                    Аксессуары
+                </label>
+
+            </fieldset>
+            <button class="button" type="submit">Показать</button>
+        </form>
     </section>
     <section class="catalog">
         <h2 class="visually-hidden">Список товаров</h2>
@@ -208,7 +265,7 @@
             <a class="restore" href="#">Я забыл пароль!</a>
         </p>
 
-        <button class="button" type="submit" >Войти</button>
+        <button class="button" type="submit">Войти</button>
     </form>
     <button class="modal-close" type="button">Закрыть</button>
 </section>

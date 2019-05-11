@@ -1,3 +1,51 @@
+/* Глобальные стили*/
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    background-color: black;
+    background-image: url("../img/index-background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.inner-page {
+    color: #000;
+
+    background-image: url("../img/fone.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+a {
+    text-decoration: none;
+}
+
+.button {
+    width: 140px;
+    height: 44px;
+
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
 /*
 .visually-hidden {
     position: absolute;
@@ -9,15 +57,175 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+ */
+/* Временная центровка */
+.container, header, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
-header {
+/* header */
+
+.main-navigation {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+
     background-color: #000000;
 }
-footer {
-    background-color: #232323;
-}
-.photos img {
-    box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
+
+.site-navigation,
+.user-navigation {
+    list-style-type: none;
 }
 
-*/
+.site-navigation a,
+.user-navigation a {
+    color: #ffffff;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    background-color: #242424;
+}
+
+/* main */
+/* features */
+
+.features-list {
+    list-style-type: none;
+}
+
+.features-item {
+    text-align: center;
+}
+
+.features-item h3 {
+    color: #f7f4f1;
+    font-size: 30px;
+    line-height: 42px;
+}
+/* news + gallery */
+
+.index-columns {
+    color: #000000;
+
+    background-color: #f8f5f2;
+    background-image: url("../img/fone.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+
+}
+
+.index-columns h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.news-list {
+    list-style-type: none;
+}
+.news-item time {
+    text-transform: lowercase;
+}
+
+.gallery-content {
+    background-color: #e5e5e5;
+    border: 7px solid #ffffff;
+}
+/* contacts + appointment*/
+
+.appointment-item input {
+    font: inherit;
+
+    border: 2px solid #000101;
+    background-color: #f9f6f3;
+}
+
+.appointment-item input:focus {
+    border: 2px solid #663d15;
+}
+/* footer */
+
+.main-footer {
+
+    background-color: #232323;
+    background-image: url("../img/footer-back.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    text-decoration: none;
+}
+
+.footer-social {
+    text-align: center;
+}
+.footer-social ul {
+    list-style-type: none;
+}
+
+.social-button {
+    color: #ffffff;
+}
+.footer-copyright {
+    text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+/* modal */
+
+.modal {
+    color: #000000;
+
+    background-color: #ffffff;
+    background-image: url("../img/fone.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.modal h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.login-form input[type=text],
+.login-form input[type=password] {
+    font: inherit;
+    color: #000000;
+    text-transform: uppercase;
+
+    border: 2px solid #000101;
+    background-color: #f9f6f3;
+}
+
+.login-form input:focus {
+    border: 2px solid #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+    color: #663d15;
+}
+
+.restore {
+    color: #000000;
+    text-decoration: underline;
+}
+.restore:hover,
+.restore:focus {
+    text-decoration: none;
+}
